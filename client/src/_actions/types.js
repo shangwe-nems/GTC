@@ -1,0 +1,25 @@
+export const LOGIN_USER = 'LOGIN_USER';
+export const REGISTER_USER = 'REGISTER_USER';
+export const AUTH_USER = 'AUTH_USER';
+export const GET_ALL_USERS = 'GET_ALL_USERS';
+export const LOGOUT_USER = 'LOGOUT_USER';
+
+export const ALL_GEMS = 'ALL_GEMS';
+export const ALL_BATCHES = 'ALL_BATCHES';
+export const SET_CURRENT_BATCH = "SET_CURRENT_BATCH";
+export const CURRENT_SELECTED_GEM = 'CURRENT_SELECTED_GEM';
+export const ADD_NEW_GEM = 'ADD_NEW_GEMS';
+export const UPDATE_GEM = 'UPDATE_GEM';
+
+export const ADD_IMAGES_VIDEOS = 'ADD_IMAGES';
+export const ADD_MEASUREMENTS = 'ADD_MEASUREMENTS';
+export const ADD_AQUISITION = 'ADD_AQUISITION';
+export const ADD_PURCHASE = 'ADD_PURCHASE';
+export const ADD_PURCHASE_PAYMENT = 'ADD_PURCHASE_PAYMENT';
+export const ADD_TREATMENT = 'ADD_TREATMENT';
+export const ADD_POSITION = 'ADD_POSITION';
+export const ADD_SALE = 'ADD_SALE';
+export const ADD_SALE_PAYMENT = 'ADD_SALE_PAYMENT';
+export const SHARE_PROFIT = 'SHARE_PROFIT';
+
+export const SETTINGS = 'SETTINGS';

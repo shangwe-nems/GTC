@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+}
+
+body {
+  /* font-family: 'Segoe UI', Helvetica,
+    "Droid Sans", "Helvetica Neue", sans-serif; */
+  font-family: 'Lato', 'Segoe UI', Helvetica,
+  "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-stretch:semi-condensed;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #24292e;
+  /* background-color: #fff; */
+  background-image: radial-gradient(#fafafa, #F0F2F5)
+}
+
+input {
+  font-family: "Lato", sans-serif;
+}
+
+video {
+  cursor: pointer;
+}
+
+.app {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91vh;
+}
+
+input.error {
+  border-color: red;
+  margin-top: -12px;
+}
+
+
+.input-feedback {
+  color: red;
+  height: 5px;
+  margin-top: 0px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #CAC8C7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #55AEEC;
+  border-radius: 20px;
+}
+
+.ant-list-item:hover {
+  box-shadow: 0 0 4px #eee !important;
+  cursor: pointer !important;
+  background-color: #fff !important
+}
+
+.ant-table-wrapper {
+  font-family: 'Lato', sans-serif !important;
+}
+
+table-footer, .ant-table.ant-table-small .ant-table-thead > tr > th, .ant-table.ant-table-small .ant-table-tbody > tr > td, .ant-table.ant-table-small tfoot > tr > th, .ant-table.ant-table-small tfoot > tr > td {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.ant-descriptions-item-content {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.ant-form-item {
+  margin-bottom: 14px !important;
+}
+
+.ant-picker-input > input {
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  font-family: "Lato", sans-serif;
+}
+
+.batch:hover {
+  background-color: rgba(215, 237, 216, 0.3);
+}
+
+.batchData:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.userItem:hover {
+  cursor: pointer;
+  background-color: #fff;
+  text-decoration: underline;
+}

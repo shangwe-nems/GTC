@@ -1,0 +1,28 @@
+.contains {
+    background: url(../../assets/img/bjf.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.contained {
+   background-color:rgba(251, 255, 255, .8);
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar a {
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #E5402A;
+    color: #fff;
+}
